@@ -264,7 +264,7 @@ public class MSGUI extends Application {
 						menFace.getChildren().set(1, face);
 						break;
 					}
-				}catch(IOException wewpwe){
+				}catch(IOException e){
 					
 				}
 			}
