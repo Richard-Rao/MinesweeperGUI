@@ -286,8 +286,8 @@ public class MSGUI extends Application {
 		
 	}
 	
-	public HBox wew(int ooh){
-		HBox kek = new HBox();
+	public HBox makeHB(int ooh){
+		HBox hBox = new HBox();
 		for(int i = 0; i<ooh; i++){
 	    	   Image image = null;
 			try {
@@ -298,8 +298,8 @@ public class MSGUI extends Application {
 			}
 	    	   ImageView iV = new ImageView();
 	           iV.setImage(image);
-	        kek.getChildren().add(iV);
+	        hBox.getChildren().add(iV);
 	       }
-     	return kek;
+     	return hBox;
 	}
 }
